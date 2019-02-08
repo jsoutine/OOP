@@ -12,7 +12,7 @@ public class TimerObserverExample {
         Person myObserver3 = new Person("Torvald");
 
         //Creating a timer that will elapse in 2 seconds.
-        Timer timer = new Timer(2000, (ActionListener) myObserver1);
+        Timer timer = new Timer(2000, myObserver1);
 
         timer.addActionListener((ActionListener) myObserver2);
         timer.addActionListener((ActionListener) myObserver3);

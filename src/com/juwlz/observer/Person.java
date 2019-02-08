@@ -1,6 +1,9 @@
 package com.juwlz.observer;
 
-public class Person {
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Person implements ActionListener {
 
     private String name;
 
@@ -10,5 +13,10 @@ public class Person {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        System.out.println(name);
     }
 }
