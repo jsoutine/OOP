@@ -37,7 +37,7 @@ public class Monkey implements Living {
     @Override
     public void setFavFood(String newFood) {
         favFood = newFood;
-        
+
 
     }
 
