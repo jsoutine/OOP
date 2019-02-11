@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d18aa77-369e-4781-a35f-b0b231a626f8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../src/com/juwlz/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/OOP/com/juwlz/exercise2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/OOP/com/juwlz/exercise2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/OOP/com/juwlz/exercise2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/OOP/com/juwlz/exercise2/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/OOP/com/juwlz/observer/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/OOP/com/juwlz/observer/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/com/juwlz/exercise2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/com/juwlz/exercise2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/com/juwlz/observer/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/com/juwlz/observer/Person.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d18aa77-369e-4781-a35f-b0b231a626f8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +13,7 @@
     <session id="-1839467504">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
