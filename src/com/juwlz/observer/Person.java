@@ -3,7 +3,7 @@ package com.juwlz.observer;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Person implements ActionListener {
+class Person implements ActionListener {
 
     private String name;
 
