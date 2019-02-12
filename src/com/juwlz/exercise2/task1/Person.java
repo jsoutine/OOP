@@ -1,4 +1,4 @@
-package com.juwlz.exercise2;
+package com.juwlz.exercise2.task1;
 
 public class Person implements Comparable<Person> {
 
