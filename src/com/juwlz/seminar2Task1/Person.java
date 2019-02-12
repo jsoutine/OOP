@@ -1,6 +1,8 @@
 package com.juwlz.seminar2Task1;
 
-public class Person {
+public abstract class Person {
+
+
 
     protected String name;
     private String SSN;
@@ -10,7 +12,7 @@ public class Person {
         this.SSN = SSN;
     }
 
-    public Boolean ValidateSSN(String SSN){
+    public static Boolean ValidateSSN(String SSN){
         if(SSN.startsWith("0")){
             return true;
         } else{
