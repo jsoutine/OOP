@@ -13,6 +13,11 @@ public class Customer extends Person{
         super(name, SSN);
     }
 
+    @Override
+    public void showInfo() {
+        //arraylist transactions accounts;
+    }
+
     public void withDraw(int amount, int accountNumber, String date ){
         this.amount = amount;
         this.date = date;

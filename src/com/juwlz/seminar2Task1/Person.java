@@ -13,13 +13,16 @@ public abstract class Person {
     }
 
     public static Boolean ValidateSSN(String SSN){
-        if(SSN.startsWith("0")){
+        if(SSN.length() == 10){
             return true;
         } else{
             return false;
         }
 
     }
+
+    public abstract void showInfo();
+
 }
 
 
