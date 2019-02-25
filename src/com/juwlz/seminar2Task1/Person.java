@@ -14,8 +14,10 @@ public abstract class Person {
 
     public static Boolean ValidateSSN(String SSN){
         if(SSN.length() == 10){
+            System.out.println("Good");
             return true;
         } else{
+            System.out.println("Not 10 numbers");
             return false;
         }
 
