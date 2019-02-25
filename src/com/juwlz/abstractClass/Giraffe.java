@@ -7,7 +7,6 @@ public class Giraffe extends Creature{
     @Override
     public void setName(String newName) {
         name = newName;
-
     }
 
     @Override
