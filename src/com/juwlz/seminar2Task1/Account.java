@@ -1,10 +1,16 @@
 package com.juwlz.seminar2Task1;
 
-public abstract class Account{
+import java.util.ArrayList;
+import java.util.Collections;
+
+public abstract class Account {
 
     public int MAX_WITHDRAW_AMOUNT = 1000;
     private float balance;
     private float interestRate;
+
+    ArrayList<Transaction> transactions = new ArrayList<>();
+
 
     public void showAllTransactionsSortedOnAmount(){
 

@@ -6,7 +6,7 @@ public class BankExample {
     public static void main(String[] args) {
 
 
-        Person.ValidateSSN("85121245656"); //the validantion just checks that the string is 10 characters.
+        Person.ValidateSSN("85121245656"); //the validation just checks that the string is 10 characters.
         Person.ValidateSSN("8512124565");
 
         Employee employee = new Employee("Ann", "8512124565", 30000);

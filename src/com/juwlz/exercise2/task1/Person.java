@@ -4,7 +4,6 @@ public class Person implements Comparable<Person> {
 
     public static boolean nameSort = true;
 
-
     private String name;
     private int age;
 
