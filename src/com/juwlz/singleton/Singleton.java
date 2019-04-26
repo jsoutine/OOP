@@ -7,7 +7,7 @@ public class Singleton {
 
     private static Singleton firstInstance = null;
 
-    String[] letters ={"a","b","c","d"};
+    private String[] letters ={"a","b","c","d"};
 
     private LinkedList<String> letterList = new LinkedList<>(Arrays.asList(letters));
 
